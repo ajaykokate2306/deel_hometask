@@ -41,7 +41,7 @@ It ingests raw financial data, transforms it into analytics-ready models, and tr
 
 ---
 
-## 📂 Repository Structure
+
 
 
 ---
@@ -75,4 +75,3 @@ Example Slack Alert:
 
 Author
 - Ajay Kokate
-[LinkedIn]() 
