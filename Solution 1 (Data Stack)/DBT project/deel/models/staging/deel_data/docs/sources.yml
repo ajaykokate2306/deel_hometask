@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: deel_raw_data
+    description: "This is a raw source foe deel data"
+    schema: RAW
+    database: DEEL_DB
+
+    tables:
+      - name: INVOICES
+      - name: ORGANIZATIONS

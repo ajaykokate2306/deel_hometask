@@ -1,0 +1,9 @@
+version: 2
+
+models:
+    - name: dim_organizations
+      columns:
+        - name: organization_id
+          data_tests:
+            - not_null  
+            - unique

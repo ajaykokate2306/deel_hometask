@@ -1,0 +1,10 @@
+FROM apache/airflow:2.8.4
+
+USER root
+RUN apt-get update
+    
+
+USER airflow
+RUN pip install apache-airflow-providers-snowflake &&\
+    pip install slack_sdk &&\
+    pip install apache-airflow-providers-slack
