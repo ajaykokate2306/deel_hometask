@@ -4,6 +4,8 @@ This repository contains 2 solutions.
     1. Contains all modern ETL tools to generate the desired output
     2. This is a jupyter notebook that performs all requested tasks
 
+Please refer Project Documentation.pdf for more details
+
 # Solution 1
 
 This solution contains a data pipeline built with **AWS S3, Snowflake, dbt, Airflow, Docker, and Slack**.  
@@ -41,7 +43,7 @@ It ingests raw financial data, transforms it into analytics-ready models, and tr
 
 ---
 
-## 📂 Repository Structure
+
 
 
 ---
@@ -75,4 +77,3 @@ Example Slack Alert:
 
 Author
 - Ajay Kokate
-[LinkedIn]() 
